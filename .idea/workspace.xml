@@ -1,7 +1,683 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b673740-a266-43e7-80ff-0e9f9bd6cd38" name="Default" comment="" />
+    <list default="true" id="1b673740-a266-43e7-80ff-0e9f9bd6cd38" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jvm/yuan/storm/MeetupTopology.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_twitter4j_twitter4j_core_4_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_twitter4j_twitter4j_stream_4_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jvm/yuan/storm/HttpClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/CHANGES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/CONTRIBUTORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/INSTALL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/aclocal.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/autogen.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/compile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/config.guess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/config.h.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/config.sub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/configure" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/configure.ac" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/depcomp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/editors/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/editors/proto.vim" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/editors/protobuf-mode.el" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/examples/AddPerson.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/examples/ListPeople.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/examples/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/examples/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/examples/add_person.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/examples/add_person.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/examples/addressbook.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/examples/list_people.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/examples/list_people.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/generate_descriptor_proto.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/CHANGES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/CONTRIBUTORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/aclocal.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/build-aux/compile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/build-aux/config.guess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/build-aux/config.h.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/build-aux/config.sub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/build-aux/depcomp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/build-aux/install-sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/build-aux/ltmain.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/build-aux/missing" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/build-aux/test-driver" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/cmake/internal_utils.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/codegear/gtest.cbproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/codegear/gtest.groupproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/codegear/gtest_all.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/codegear/gtest_link.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/codegear/gtest_main.cbproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/codegear/gtest_unittest.cbproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/configure" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/configure.ac" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/fused-src/gtest/gtest-all.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/fused-src/gtest/gtest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/fused-src/gtest/gtest_main.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/gtest-death-test.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/gtest-message.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/gtest-param-test.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/gtest-param-test.h.pump" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/gtest-printers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/gtest-spi.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/gtest-test-part.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/gtest-typed-test.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/gtest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/gtest_pred_impl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/gtest_prod.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-death-test-internal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-filepath.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-internal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-linked_ptr.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-param-util-generated.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-param-util-generated.h.pump" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-param-util.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-port.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-string.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-tuple.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-tuple.h.pump" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-type-util.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/include/gtest/internal/gtest-type-util.h.pump" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/m4/acx_pthread.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/m4/gtest.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/m4/libtool.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/m4/ltoptions.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/m4/ltsugar.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/m4/ltversion.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/m4/lt~obsolete.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/make/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/msvc/gtest-md.sln" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/msvc/gtest-md.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/msvc/gtest.sln" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/msvc/gtest.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/msvc/gtest_main-md.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/msvc/gtest_main.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/msvc/gtest_prod_test-md.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/msvc/gtest_prod_test.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/msvc/gtest_unittest-md.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/msvc/gtest_unittest.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/prime_tables.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample1.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample1.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample10_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample1_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample2.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample2.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample2_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample3-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample3_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample4.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample4.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample4_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample5_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample6_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample7_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample8_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/samples/sample9_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/scripts/fuse_gtest_files.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/scripts/gen_gtest_pred_impl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/scripts/gtest-config.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/scripts/pump.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/scripts/test/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/src/gtest-all.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/src/gtest-death-test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/src/gtest-filepath.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/src/gtest-internal-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/src/gtest-port.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/src/gtest-printers.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/src/gtest-test-part.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/src/gtest-typed-test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/src/gtest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/src/gtest_main.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-death-test_ex_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-death-test_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-filepath_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-linked_ptr_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-listener_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-message_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-options_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-param-test2_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-param-test_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-param-test_test.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-port_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-printers_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-test-part_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-tuple_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-typed-test2_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-typed-test_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-typed-test_test.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest-unittest-api_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_all_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_break_on_failure_unittest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_break_on_failure_unittest_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_catch_exceptions_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_catch_exceptions_test_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_color_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_color_test_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_env_var_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_env_var_test_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_environment_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_filter_unittest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_filter_unittest_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_help_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_help_test_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_list_tests_unittest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_list_tests_unittest_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_main_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_no_test_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_output_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_output_test_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_output_test_golden_lin.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_pred_impl_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_prod_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_repeat_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_shuffle_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_shuffle_test_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_sole_header_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_stress_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_test_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_throw_on_failure_ex_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_throw_on_failure_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_throw_on_failure_test_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_uninitialized_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_uninitialized_test_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_xml_outfile1_test_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_xml_outfile2_test_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_xml_outfiles_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_xml_output_unittest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_xml_output_unittest_.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/gtest_xml_test_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/production.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/test/production.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Config/DebugProject.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Config/FrameworkTarget.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Config/General.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Config/ReleaseProject.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Config/StaticLibraryTarget.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Config/TestTarget.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Resources/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Samples/FrameworkSample/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Samples/FrameworkSample/WidgetFramework.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Samples/FrameworkSample/runtests.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Samples/FrameworkSample/widget.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Samples/FrameworkSample/widget.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Samples/FrameworkSample/widget_test.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Scripts/runtests.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/Scripts/versiongenerate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/gtest/xcode/gtest.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/install-sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/AbstractMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/AbstractMessageLite.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/AbstractParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/BlockingRpcChannel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/BlockingService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/BoundedByteString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/ByteString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/CodedInputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/CodedOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/Descriptors.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/DynamicMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/Extension.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/ExtensionRegistry.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/ExtensionRegistryLite.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/FieldSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/GeneratedMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/GeneratedMessageLite.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/Internal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/InvalidProtocolBufferException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/LazyField.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/LazyFieldLite.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/LazyStringArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/LazyStringList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/LiteralByteString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/MessageLite.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/MessageLiteOrBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/MessageOrBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/MessageReflection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/Parser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/ProtocolMessageEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/ProtocolStringList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/RepeatedFieldBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/RopeByteString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/RpcCallback.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/RpcChannel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/RpcController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/RpcUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/Service.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/ServiceException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/SingleFieldBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/SmallSortedMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/TextFormat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/UninitializedMessageException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/UnknownFieldSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/UnmodifiableLazyStringList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/Utf8.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/main/java/com/google/protobuf/WireFormat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/AbstractMessageTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/BoundedByteStringTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/ByteStringTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/CheckUtf8Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/CodedInputStreamTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/CodedOutputStreamTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/DeprecatedFieldTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/DescriptorsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/DynamicMessageTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/ForceFieldBuildersPreRun.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/GeneratedMessageTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/IsValidUtf8Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/IsValidUtf8TestUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/LazyFieldLiteTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/LazyFieldTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/LazyMessageLiteTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/LazyStringArrayListTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/LazyStringEndToEndTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/LiteEqualsAndHashTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/LiteTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/LiteralByteStringTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/MessageTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/NestedBuildersTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/ParserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/RepeatedFieldBuilderTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/RopeByteStringSubstringTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/RopeByteStringTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/ServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/SingleFieldBuilderTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/SmallSortedMapTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/TestBadIdentifiers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/TestUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/TextFormatTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/UnknownFieldSetTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/UnmodifiableLazyStringListTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/WireFormatTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/lazy_fields_lite.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/lite_equals_and_hash.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/multiple_files_test.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/nested_builders_test.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/nested_extension.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/nested_extension_lite.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/non_nested_extension.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/non_nested_extension_lite.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/outer_class_name_test.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/outer_class_name_test2.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/outer_class_name_test3.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/test_bad_identifiers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/test_check_utf8.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/test_check_utf8_size.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/java/src/test/java/com/google/protobuf/test_custom_options.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/ltmain.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/m4/ac_system_extensions.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/m4/acx_check_suncc.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/m4/acx_pthread.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/m4/libtool.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/m4/ltoptions.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/m4/ltsugar.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/m4/ltversion.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/m4/lt~obsolete.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/m4/stl_hash.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/missing" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/protobuf-lite.pc.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/protobuf.pc.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/ez_setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/descriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/descriptor_database.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/descriptor_pool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/api_implementation.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/api_implementation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/api_implementation_default_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/containers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/cpp_message.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/decoder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/descriptor_database_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/descriptor_pool_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/descriptor_pool_test1.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/descriptor_pool_test2.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/descriptor_python_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/descriptor_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/encoder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/enum_type_wrapper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/factory_test1.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/factory_test2.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/generator_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/message_factory_python_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/message_factory_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/message_listener.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/message_python_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/message_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/missing_enum_values.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/more_extensions.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/more_extensions_dynamic.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/more_messages.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/python_message.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/reflection_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/service_reflection_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/symbol_database_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/test_bad_identifiers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/test_util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/text_encoding_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/text_format_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/type_checkers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/unknown_fields_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/wire_format.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/internal/wire_format_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/message.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/message_factory.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/cpp_message.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/descriptor.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/descriptor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/descriptor_cpp2_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/extension_dict.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/extension_dict.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/message.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/message.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/message_factory_cpp2_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/proto2_api_test.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/python.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/python_protobuf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/reflection_cpp2_generated_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/repeated_composite_container.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/repeated_composite_container.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/repeated_scalar_container.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/repeated_scalar_container.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/pyext/scoped_pyobject_ptr.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/reflection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/service.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/service_reflection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/symbol_database.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/text_encoding.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/google/protobuf/text_format.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/mox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/python/stubout.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/code_generator.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/code_generator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/command_line_interface.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/command_line_interface.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/command_line_interface_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_bootstrap_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_enum.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_enum.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_enum_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_enum_field.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_extension.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_extension.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_field.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_file.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_file.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_generator.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_generator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_helpers.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_helpers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_message.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_message.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_message_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_message_field.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_options.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_plugin_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_primitive_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_primitive_field.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_service.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_service.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_string_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_string_field.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_test_bad_identifiers.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/cpp/cpp_unittest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/importer.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/importer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/importer_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_context.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_context.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_doc_comment.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_doc_comment.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_doc_comment_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_enum.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_enum.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_enum_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_enum_field.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_extension.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_extension.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_field.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_file.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_file.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_generator.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_generator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_generator_factory.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_generator_factory.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_helpers.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_helpers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_lazy_message_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_lazy_message_field.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_message.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_message.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_message_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_message_field.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_name_resolver.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_name_resolver.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_plugin_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_primitive_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_primitive_field.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_service.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_service.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_shared_code_generator.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_shared_code_generator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_string_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/java/java_string_field.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/main.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/mock_code_generator.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/mock_code_generator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/package_info.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/parser.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/parser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/parser_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/plugin.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/plugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/plugin.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/plugin.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/plugin.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/python/python_generator.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/python/python_generator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/python/python_plugin_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/subprocess.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/subprocess.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/test_plugin.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/zip_output_unittest.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/zip_writer.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/compiler/zip_writer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/descriptor.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/descriptor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/descriptor.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/descriptor.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/descriptor.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/descriptor_database.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/descriptor_database.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/descriptor_database_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/descriptor_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/dynamic_message.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/dynamic_message.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/dynamic_message_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/extension_set.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/extension_set.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/extension_set_heavy.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/extension_set_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/generated_enum_reflection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/generated_message_reflection.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/generated_message_reflection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/generated_message_reflection_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/generated_message_util.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/generated_message_util.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/coded_stream.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/coded_stream.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/coded_stream_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/coded_stream_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/gzip_stream.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/gzip_stream.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/gzip_stream_unittest.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/package_info.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/printer.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/printer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/printer_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/strtod.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/strtod.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/tokenizer.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/tokenizer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/tokenizer_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/zero_copy_stream.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/zero_copy_stream.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/zero_copy_stream_impl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/io/zero_copy_stream_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/lite_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/message.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/message.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/message_lite.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/message_lite.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/message_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/package_info.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/reflection_ops.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/reflection_ops.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/reflection_ops_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/repeated_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/repeated_field.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/repeated_field_reflection_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/repeated_field_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/service.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/service.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_arm64_gcc.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_arm_gcc.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_arm_qnx.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_atomicword_compat.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_generic_gcc.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_macosx.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_mips_gcc.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_pnacl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_solaris.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_tsan.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/common.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/common.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/common_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/hash.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/map_util.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/once.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/once.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/once_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/platform_macros.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/shared_ptr.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/stl_util.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/stringprintf.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/stringprintf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/stringprintf_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/structurally_valid.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/structurally_valid_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/strutil.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/strutil.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/strutil_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/substitute.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/substitute.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/template_util.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/template_util_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/type_traits.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/stubs/type_traits_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/test_util.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/test_util.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/test_util_lite.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/test_util_lite.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testdata/bad_utf8_string" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testdata/golden_message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testdata/golden_message_oneof_implemented" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testdata/golden_packed_fields_message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testdata/text_format_unittest_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testdata/text_format_unittest_data_oneof_implemented.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testdata/text_format_unittest_data_pointy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testdata/text_format_unittest_data_pointy_oneof.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testdata/text_format_unittest_extensions_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testdata/text_format_unittest_extensions_data_pointy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testing/file.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testing/file.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testing/googletest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testing/googletest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testing/zcgunzip.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/testing/zcgzip.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/text_format.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/text_format.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/text_format_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_custom_options.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_embed_optimize_for.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_empty.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_enormous_descriptor.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_import.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_import_lite.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_import_public.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_import_public_lite.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_lite.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_lite_imports_nonlite.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_mset.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_no_generic_services.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unittest_optimize_for.proto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unknown_field_set.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unknown_field_set.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/unknown_field_set_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/wire_format.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/wire_format.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/wire_format_lite.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/wire_format_lite.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/wire_format_lite_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/google/protobuf/wire_format_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/src/solaris/libstdc++.la" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/test-driver" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/vsprojects/config.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/vsprojects/convert2008to2005.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/vsprojects/extract_includes.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/vsprojects/libprotobuf-lite.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/vsprojects/libprotobuf.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/vsprojects/libprotoc.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/vsprojects/lite-test.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/vsprojects/protobuf.sln" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/vsprojects/protoc.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/vsprojects/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/vsprojects/test_plugin.vcproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/protobuf/vsprojects/tests.vcproj" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/yuan/storm/MeetupSpout.java" afterPath="$PROJECT_DIR$/src/jvm/yuan/storm/MeetupSpout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/yuan/storm/ParseMeetupFeedsBolt.java" afterPath="$PROJECT_DIR$/src/jvm/yuan/storm/ParseMeetupFeedsBolt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuan-storm-meetup.iml" afterPath="$PROJECT_DIR$/yuan-storm-meetup.iml" />
+    </list>
     <ignored path="yuan-storm-meetup.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,16 +698,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HttpClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/HttpClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="meetup.proto" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/proto/meetup.proto">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,24 +708,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MeetupProtos.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/proto/MeetupProtos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#81186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeetupSpout.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MeetupSpout.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/MeetupSpout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-              <folding />
+            <state vertical-scroll-proportion="0.3301759">
+              <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,7 +724,47 @@
         <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/ParseMeetupFeedsBolt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+              <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MeetupProtos.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/proto/MeetupProtos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Debug.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/Debug.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="73" selection-start-line="27" selection-start-column="12" selection-end-line="30" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URLClassLoader.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisWriterBolt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/RedisWriterBolt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,11 +772,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MeetupTopology.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/MeetupTopology.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.4465494">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -95,6 +801,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -104,10 +813,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/jvm/yuan/storm/HttpClient.java" />
-        <option value="$PROJECT_DIR$/src/jvm/yuan/storm/MeetupSpout.java" />
         <option value="$PROJECT_DIR$/src/jvm/yuan/storm/proto/meetup.proto" />
+        <option value="$PROJECT_DIR$/src/jvm/yuan/storm/RedisWriterBolt.java" />
+        <option value="$PROJECT_DIR$/src/jvm/yuan/storm/Debug.java" />
         <option value="$PROJECT_DIR$/src/jvm/yuan/storm/ParseMeetupFeedsBolt.java" />
+        <option value="$PROJECT_DIR$/src/jvm/yuan/storm/MeetupTopology.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/jvm/yuan/storm/MeetupSpout.java" />
       </list>
     </option>
   </component>
@@ -131,7 +843,7 @@
     <option name="width" value="1440" />
     <option name="height" value="836" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -154,9 +866,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,20 +884,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="meetup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yuan-storm-meetup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meetup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,8 +944,17 @@
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../real-time/ud381" />
     <property name="FullScreen" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Application.HttpClient">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/jvm/yuan/storm" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Debug">
     <configuration default="false" name="HttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -256,6 +963,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="yuan.storm.HttpClient" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="yuan-storm-meetup" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MeetupTopology" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="yuan.storm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="yuan.storm.MeetupTopology" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="yuan-storm-meetup" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Debug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="yuan.storm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="yuan.storm.Debug" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -379,6 +1126,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -415,12 +1184,55 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.HttpClient" />
+    <configuration default="false" name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="9000" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9000" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Maven.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Remote.Unnamed" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HttpClient" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MeetupTopology" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Debug" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.HttpClient" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.Debug" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MeetupTopology" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HttpClient" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +1251,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="836" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -447,23 +1259,23 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22708334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39895698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -478,7 +1290,29 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jvm/yuan/storm/ParseMeetupFeedsBolt.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jvm/yuan/storm/Debug.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jvm/yuan/storm/Debug.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -486,10 +1320,60 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/HttpClient.java">
+    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/ParseMeetupFeedsBolt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/proto/MeetupProtos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/Debug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="73" selection-start-line="27" selection-start-column="12" selection-end-line="30" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/RedisWriterBolt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/MeetupTopology.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -505,10 +1389,8 @@
     <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/proto/MeetupProtos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#81186#0" expanded="true" />
-          </folding>
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -516,7 +1398,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,9 +1408,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -534,14 +1416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -558,9 +1432,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#81186#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -568,7 +1440,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -576,9 +1450,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -586,14 +1458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -610,9 +1474,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#81186#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -620,7 +1482,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/ParseMeetupFeedsBolt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/proto/meetup.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/proto/MeetupProtos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/MeetupSpout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -628,9 +1534,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -638,14 +1542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -662,9 +1558,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#81186#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +1566,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -680,9 +1576,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -690,14 +1584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -714,9 +1600,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#81186#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +1608,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -732,9 +1618,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -742,14 +1626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="115" column="54" selection-start-line="115" selection-start-column="54" selection-end-line="115" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -766,9 +1642,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#81186#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -776,7 +1650,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -788,19 +1664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/HttpClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-core/0.9.4/storm-core-0.9.4.jar!/backtype/storm/spout/ISpout.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.14705883">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -814,19 +1681,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/MeetupSpout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="0.3301759">
+          <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/ParseMeetupFeedsBolt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -834,19 +1701,138 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/Debug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="73" selection-start-line="27" selection-start-column="12" selection-end-line="30" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/RedisWriterBolt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
           <folding>
-            <element signature="e#0#81186#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/yuan/storm/MeetupTopology.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4465494">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Protobuf Facet</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>yuan-storm-meetup</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.0.13</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

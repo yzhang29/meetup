@@ -12,11 +12,8 @@ import com.ning.http.client.AsyncCompletionHandler;
 import com.ning.http.client.AsyncHttpClient;
 import com.ning.http.client.HttpResponseBodyPart;
 import com.ning.http.client.Response;
-import twitter4j.*;
-import twitter4j.conf.ConfigurationBuilder;
 
 import java.util.Map;
-import java.util.concurrent.Future;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
@@ -67,7 +64,7 @@ public class MeetupSpout extends BaseRichSpout
     // if no tweet is available, wait for 50 ms and return
     if (ret==null) 
     {
-      Utils.sleep(50);
+      Utils.sleep(1000);
       return;
     }
 

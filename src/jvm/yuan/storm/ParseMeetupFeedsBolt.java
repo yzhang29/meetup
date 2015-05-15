@@ -16,11 +16,16 @@ import backtype.storm.tuple.Fields;
 import backtype.storm.tuple.Tuple;
 import backtype.storm.tuple.Values;
 import backtype.storm.utils.Utils;
-import org.json.JSONObject;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.json.simple.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import yuan.storm.proto.MeetupProtos;
 /**
  * Created by yzhang29 on 5/1/15.
  */
+import java.io.IOException;
 import java.util.Map;
 
 import static yuan.storm.proto.MeetupProtos.*;
@@ -32,6 +37,9 @@ public class ParseMeetupFeedsBolt extends BaseRichBolt{
 
     // To output tuples from this bolt to the count bolt
     OutputCollector collector;
+    private static ObjectMapper mapper = new ObjectMapper();
+    private final Logger logger = LoggerFactory.getLogger(ParseMeetupFeedsBolt.class);
+
 
     @Override
     public void prepare(
@@ -46,17 +54,19 @@ public class ParseMeetupFeedsBolt extends BaseRichBolt{
     @Override
     public void execute(Tuple tuple)
     {
-        // get the 1st column 'tweet' from tuple
         String feed = tuple.getString(0);
-        JSONObject obj = new JSONObject(feed);
-        String n = obj.getString("name");
-        int a = obj.getInt("age");
-        System.out.println(n + " " + a);
+        System.out.println("FEEDLA" + feed);
         MeetupEvent.Builder eventBuilder = MeetupEvent.newBuilder();
-
-        // for each token/word, emit it
-        for (String token: tokens) {
-            collector.emit(new Values(token));
+        try {
+            JsonNode meetupData = mapper.readTree(feed);
+            if(meetupData.get("status").asText().equals("upcoming")) {
+                eventBuilder.setId(meetupData.path("id").asText());
+                eventBuilder.setCategory(meetupData.path("group").path("category").path("shortname").asText());
+                eventBuilder.setTime(meetupData.get("time").longValue());
+                collector.emit(new Values(eventBuilder.build()));
+            }
+        } catch (IOException e) {
+            logger.error("Error parsing json stream" + e.toString());
         }
     }
 
@@ -64,7 +74,6 @@ public class ParseMeetupFeedsBolt extends BaseRichBolt{
     public void declareOutputFields(OutputFieldsDeclarer declarer)
     {
         // tell storm the schema of the output tuple for this spout
-        // tuple consists of a single column called 'tweet-word'
-        declarer.declare(new Fields("tweet-word"));
+        declarer.declare(new Fields("meetup-proto"));
     }
 }

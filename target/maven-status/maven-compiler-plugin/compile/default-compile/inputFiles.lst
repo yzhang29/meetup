@@ -1,4 +1,6 @@
-/Users/yzhang29/workspace/meetup/src/jvm/yuan/storm/HttpClient.java
+/Users/yzhang29/workspace/meetup/src/jvm/yuan/storm/MeetupTopology.java
 /Users/yzhang29/workspace/meetup/src/jvm/yuan/storm/ParseMeetupFeedsBolt.java
 /Users/yzhang29/workspace/meetup/src/jvm/yuan/storm/MeetupSpout.java
 /Users/yzhang29/workspace/meetup/src/jvm/yuan/storm/proto/MeetupProtos.java
+/Users/yzhang29/workspace/meetup/src/jvm/yuan/storm/Debug.java
+/Users/yzhang29/workspace/meetup/src/jvm/yuan/storm/RedisWriterBolt.java
